@@ -28,7 +28,7 @@ body{
     color: var(--primaryColor);
 }
 .header{
-    background: url(/Assets/Hero-bg.png) center/cover fixed;
+    background: url(Assets/Hero-bg.png) center/cover fixed;
 }
 nav ul{
     display: flex;
