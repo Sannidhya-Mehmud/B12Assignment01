@@ -113,3 +113,27 @@ main{
     text-align: center;
     color: var(--lightDark);
 }
+
+/* focus */
+.focus{
+    text-align: center;
+    margin-top: 137px;
+}
+
+.focus-tittle{
+    font-size: 50px;
+    font-weight: bold;
+}
+.focus-text{
+    color: var(--lightDark);
+    font-size: 15px;
+    padding: 20px;
+}
+.focus-btn{
+    padding: 20px;
+}
+.focus-img{
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
