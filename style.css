@@ -73,10 +73,43 @@ main{
     font-weight: bold;
     color: var(--secondaryColor);
 }
-p {
+.section-p {
     color: var(--lightDark);
     padding: 23px 0;
 }
 .ac-img {
     border-radius: 48px;
+}
+
+/* user */
+.user{
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 80px 50px;
+    border-radius: 24px;
+    margin-top: 116px;
+}
+.user-tittle{
+    
+    padding: 50px 142px;
+}
+.user-head{
+    font-size: 38px;
+    font-weight: bold;
+    color: var(--secondaryColor);
+    text-align: center;
+}
+.users-data{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+.u-head{
+    color: var(--primaryColor);
+    font-weight: bold;
+    font-size: 80px;
+}
+.u-text{
+    text-align: center;
+    color: var(--lightDark);
 }
