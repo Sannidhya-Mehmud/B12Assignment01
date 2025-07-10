@@ -27,9 +27,13 @@ body{
     background-color: var(--btnColor);
     color: var(--primaryColor);
 }
-
-nav {
+.header{
+    background: url(/Assets/Hero-bg.png) center/cover fixed;
+}
+nav ul{
     display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
 }
 nav ul li {
     list-style: none;
@@ -39,4 +43,14 @@ nav li a {
     font-size: 34px;
     font-weight: bold;
     color: var(--primaryColor);
+}
+.header-text{
+    text-align: center;
+    padding: 309px 268px 152px;
+}
+.header-tittle{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 37px;
+
 }
