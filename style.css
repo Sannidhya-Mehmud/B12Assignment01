@@ -23,6 +23,7 @@ body{
     border: 5px solid var(--primaryColor);
     border-radius: 10px;
     cursor: pointer;
+    transition: 0.3s;
 }
 .primary-btn:hover{
     background-color: var(--btnColor);
@@ -34,7 +35,7 @@ body{
 nav ul{
     display: flex;
     justify-content: space-between;
-    padding: 0 150px;
+    padding: 50px 150px;
 }
 nav ul li {
     list-style: none;
